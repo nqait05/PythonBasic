@@ -1,0 +1,27 @@
+import turtle
+import math
+
+print('House of santa')
+
+#define the long of edgs
+edglong=100
+
+#define the long of edgs
+crosslong=math.sqrt(2)*edglong
+
+turtle.forward(edglong)
+turtle.left(90)
+turtle.forward(edglong)
+turtle.left(90)
+turtle.forward(edglong)
+turtle.left(90)
+turtle.forward(edglong)
+
+turtle.left(135)
+turtle.forward(crosslong)
+turtle.left(90)
+turtle.forward(crosslong/2)
+turtle.left(90)
+turtle.forward(crosslong/2)
+turtle.left(90)
+turtle.forward(crosslong)
